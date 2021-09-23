@@ -25,24 +25,26 @@ header {
     margin-bottom: 40px;
     display: flex;
     justify-content: space-between;
-    align-items: flex-end;
+    align-items: center;
 }
+/* header img{
+    margin-top: 28px;
+} */
 nav{
     min-width: 500px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding-bottom: 10px;
-    
+    align-items: flex-start;  
 }
 nav a {
     text-decoration: none;
     color: black;
-    padding: 40px 20px;
+    padding: 30px 10px 0;
 }
 nav a:hover {
     border-top: 3px solid #0065FC;
     color: #0065FC;
+    padding: 30px;
     cursor:none;
 }
 .blue {
@@ -68,8 +70,8 @@ h1 {
 .dot {
     color: black;
     text-align: center;
-    width: 50px;
-    height: 50px;
+    min-width: 50px;
+    min-height: 50px;
     background-color: #F2F2F2;
     border-top-left-radius: 16px;
     border-bottom-left-radius: 16px;
@@ -122,7 +124,6 @@ input[type=search] {
     border: #DEEBFF;
 }
 .btn {
-    
     border: none;
     padding: 14px;
     font-size: 1.2rem;
@@ -134,6 +135,7 @@ input[type=search] {
 }
 .btn:hover {
     background-color: #DEEBFF;
+  
 }
 /* Hébergements */
 
@@ -239,7 +241,7 @@ aside {
     margin: 20px;
 }
 .titrePop .fas{
-    margin: 15px;
+
     color: black;
 }
 .flexbox2 {
@@ -247,7 +249,7 @@ aside {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     margin: 0 20px;
 }
 .cardPop {
@@ -255,6 +257,7 @@ aside {
     border-radius: 19px;
     box-shadow: 0 5px 10px lightgray;
     padding: 3px;
+    margin: 20px;
     width: 343px;
     height: 134px;
     display: flex;

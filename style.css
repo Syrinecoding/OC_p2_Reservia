@@ -1,0 +1,355 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    scroll-behavior: smooth;
+}
+body {
+    font-family: 'Raleway', sans-serif;
+}
+.mainWrapper {
+    max-width: 1340px;
+    margin: 0 40px;
+}
+img {
+    display: block;
+}
+i {
+    color: #0065FC;
+}
+
+/* Header */
+header {
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+nav{
+    min-width: 500px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+    
+}
+nav a {
+    text-decoration: none;
+    color: black;
+    padding: 40px 20px;
+}
+nav a:hover {
+    border-top: 3px solid #0065FC;
+    color: #0065FC;
+    cursor:none;
+}
+.blue {
+    color: #0065FC;
+}
+
+/* Bouton Rechercher */
+h1 {
+    padding: 10px 0;
+}
+.bouton {
+    display: flex;
+    margin: 15px 0;
+    max-width: 35%;
+}
+#cities {
+    flex: 1;
+    border: 1px dotted #d9d9d9;
+    line-height: 2;
+    font-size: 1.2rem;
+    padding: 0 20px;
+}
+.dot {
+    color: black;
+    text-align: center;
+    width: 50px;
+    height: 50px;
+    background-color: #F2F2F2;
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+    padding: 14px 0 0;
+}
+.bouton button {
+    border: 1px dotted #0065FC;
+    line-height: 2;
+    padding: 0px 20px;
+    font-size: 1.2rem;
+    text-align: center;
+    background-color: #0065FC;
+    color: white;
+    border-top-right-radius: 16px;
+    border-bottom-right-radius: 16px;
+}
+input[type=search] {
+    color: black;
+    font-weight: bold;
+}
+
+/* Filtres */
+.filtrer {
+    max-width: 70%;
+    margin: 20px 0;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+    flex-wrap: wrap;
+}
+
+.filtrer .fas {
+    text-align: center;
+    width: 52px;
+    height: 52px;
+    font-size: 1.3rem;
+    background-color:#DEEBFF;
+    border-radius: 50%;
+    padding: 14px 0 0;
+}
+.filtre {
+    border: 2px solid #e5e5e5;
+    border-left-style: none;
+    border-radius: 25px;
+    align-self: flex-end;
+}
+.filtre:hover {
+    background-color: #DEEBFF;
+    border: #DEEBFF;
+}
+.btn {
+    
+    border: none;
+    padding: 14px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: white;
+    text-align: center;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.btn:hover {
+    background-color: #DEEBFF;
+}
+/* Hébergements */
+
+.ligneInfo {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 5px; 
+    padding: 10px 5px;
+    margin: 20px 0; 
+}
+.ligneInfo i {
+    border: 2px solid #F2F2F2;
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+    font-size: 14px;
+    text-align: center;
+    padding: 5px 0;
+
+}
+#Hébergements {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#Hébergements a {
+    text-decoration: none;
+    color: black;
+}
+
+.boxHeb {
+    max-width: 877px;
+    height: 630px;
+    background-color: #F2F2F2;
+    border-radius: 19px;
+    padding: 20px;
+}
+.boxHeb h2 {
+    margin: 20px;
+}
+
+.flexbox1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.cardHeb {
+    min-width: 246px;
+    height: auto;
+    border-radius: 19px;
+    box-shadow: 0 5px 10px lightgray;
+    margin: 15px 15px;
+    padding: 3px 3px 10px;
+    background-color: white;
+} 
+.cardHeb img {
+    border-top-left-radius: 19px ;
+    border-top-right-radius: 19px;
+    width: 100%;
+    height: 115px;
+    object-fit: cover;
+}
+.info {
+    margin: 10px 20px 0 ;
+    line-height: 1.5;
+} 
+.info .iconPop {
+    padding-top: 4px ;
+}
+h5 {
+    font-size: 1em;
+    margin-top: 5px;
+}
+.cardHeb p {
+    font-size: 0.9em;
+}
+.gray {
+    color:#d9d9d9;
+}
+.size {
+    font-size: 1.1em;
+    margin: 0 20px;
+    padding: 15px 0;
+    font-weight: bold;
+}
+
+/* Populaires */
+aside {
+    border-radius: 19px;
+    max-width: 420px;
+    height: 630px;
+    background-color: #F2F2F2;
+   
+    padding: 20px;
+}
+.titrePop {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+.titrePop .fas{
+    margin: 15px;
+    color: black;
+}
+.flexbox2 {
+    height: 475px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin: 0 20px;
+}
+.cardPop {
+    background-color: white;
+    border-radius: 19px;
+    box-shadow: 0 5px 10px lightgray;
+    padding: 3px;
+    width: 343px;
+    height: 134px;
+    display: flex;
+    justify-content: space-between;
+    align-items:flex-start;
+}
+.infoPop {
+    height: 130px;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0 20px 10px;
+}
+.iconPop {
+    font-size: 13px;
+    word-spacing: -0.2em;
+}
+.cardPop img {
+    width: 40%;
+    height: 100%;
+    border-top-left-radius: 19px;
+    border-bottom-left-radius: 19px;
+    object-fit: cover;
+}
+.cardPop p {
+    font-size: 0.9em;
+    padding: 10px 0;
+}
+
+/* Activités */
+#Activités {
+    width: 100%;
+    height: auto;
+}
+#Activités a {
+    text-decoration: none;
+    color: black;
+}
+#Activités h3 {
+    margin-top: 30px;
+    padding: 15px 0;
+}
+.flexbox3 {
+    width: 100%;
+    height: 520px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+    padding-bottom: 40px;
+}
+
+.cardAct {
+    width: 303px;
+    box-shadow: 0 5px 10px lightgray;
+    border-radius: 19px;
+    overflow: hidden;
+}
+
+#Activités img {
+    object-fit: cover;
+    max-width: 100%;
+}
+h4 {
+    font-size: 1em;
+    padding: 5px;
+    margin: 10px;
+    width: 303px;
+    border-bottom-left-radius: 19px;
+    border-bottom-right-radius: 19px; 
+}
+
+
+/* Footer */
+footer {
+    background-color: #F2F2F2;  
+    line-height: 2;  
+}
+.footer {
+    max-width: 70%;
+    margin-left: 40px;
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    
+}
+
+footer h5 {
+    margin-bottom: 8px;
+}
+ul {
+    list-style-type: none;
+    
+}

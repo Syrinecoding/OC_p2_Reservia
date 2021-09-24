@@ -162,7 +162,8 @@ input[type=search] {
     height: 70%;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
+
 }
 #Hébergements a {
     text-decoration: none;

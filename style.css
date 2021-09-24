@@ -25,7 +25,7 @@ header {
     margin-bottom: 40px;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
 }
 /* header img{
     margin-top: 28px;
@@ -40,12 +40,13 @@ nav a {
     text-decoration: none;
     color: black;
     padding: 30px 10px 0;
+    text-align: center;
 }
 nav a:hover {
     border-top: 3px solid #0065FC;
     color: #0065FC;
-    padding: 30px;
-    cursor:none;
+   
+
 }
 .blue {
     color: #0065FC;
@@ -106,8 +107,8 @@ input[type=search] {
 
 .filtrer .fas {
     text-align: center;
-    width: 52px;
-    height: 52px;
+    width: 50px;
+    height: 50px;
     font-size: 1.3rem;
     background-color:#DEEBFF;
     border-radius: 50%;
@@ -128,15 +129,15 @@ input[type=search] {
     padding: 14px;
     font-size: 1.2rem;
     font-weight: bold;
-    background-color: white;
+    background-color: transparent;
     text-align: center;
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
 }
-.btn:hover {
+/* .btn:hover {
     background-color: #DEEBFF;
   
-}
+} */
 /* Hébergements */
 
 .ligneInfo {
@@ -162,7 +163,7 @@ input[type=search] {
     height: 70%;
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    /* align-items: flex-start; */
 
 }
 #Hébergements a {
@@ -172,12 +173,13 @@ input[type=search] {
 
 .boxHeb {
     /* max-width: 877px; */
-    width: min(877px, 67%);
-    height: 70%;
+    width: auto;
+
     /* height: 630px; */
     background-color: #F2F2F2;
     border-radius: 19px;
     padding: 20px;
+    margin-right: 40px;
 }
 .boxHeb h2 {
     margin: 20px;
@@ -233,8 +235,8 @@ h5 {
 aside {
     border-radius: 19px;
     width: 31%;
-    min-height: 70%;
-    /* max-width: 420px; */
+    height: auto;
+    width: 420px;
     /* height: 630px; */
     background-color: hsl(0, 0%, 95%);
     padding: 20px;

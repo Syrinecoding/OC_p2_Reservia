@@ -19,7 +19,9 @@ img {
 i {
     color: #0065FC;
 }
-
+a {
+    display: block;
+}
 /* Header */
 header {
     margin-bottom: 40px;
@@ -193,6 +195,7 @@ input[type=search] {
 }
 .cardHeb {
     min-width: 246px;
+    width: 20%;
     height: auto;
     border-radius: 19px;
     box-shadow: 0 5px 10px lightgray;
@@ -265,8 +268,9 @@ aside {
     box-shadow: 0 5px 10px lightgray;
     padding: 3px;
     margin: 20px;
-    /* width: 100%; */
-    width: 343px;
+  
+    min-width: 343px;
+    width: 90%;
     /* height: 35%; */
     height: 134px;
     display: flex;
@@ -323,7 +327,9 @@ aside {
 }
 
 .cardAct {
-    width: 303px;
+    min-width: 303px;
+    width: 20%;
+    /* margin: 1%; */
     box-shadow: 0 5px 10px lightgray;
     border-radius: 19px;
     overflow: hidden;
@@ -331,7 +337,7 @@ aside {
 
 #Activités img {
     object-fit: cover;
-    max-width: 100%;
+    min-width: 100%;
 }
 h4 {
     font-size: 1em;
@@ -350,7 +356,7 @@ footer {
 }
 .footer {
     max-width: 70%;
-    margin-left: 40px;
+    margin-left: 50px;
     padding: 30px 0;
     display: flex;
     justify-content: space-between;

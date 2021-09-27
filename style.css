@@ -19,21 +19,25 @@ img {
 i {
     color: #0065FC;
 }
-a {
+/* a {
     display: block;
-}
+} */
 /* Header */
 header {
     margin-bottom: 40px;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
+
 }
-/* header img{
-    margin-top: 28px;
-} */
+header img{
+    height: 60px;
+    margin-top: 30px;
+  
+}
+
 nav{
-    min-width: 500px;
+    width: 450px;
     display: flex;
     justify-content: space-between;
     align-items: flex-start;  
@@ -41,14 +45,12 @@ nav{
 nav a {
     text-decoration: none;
     color: black;
-    padding: 30px 10px 0;
+    padding: 45px 15px 0;
     text-align: center;
 }
 nav a:hover {
     border-top: 3px solid #0065FC;
     color: #0065FC;
-   
-
 }
 .blue {
     color: #0065FC;
@@ -66,6 +68,7 @@ h1 {
 #cities {
     flex: 1;
     border: 1px dotted #d9d9d9;
+    
     line-height: 2;
     font-size: 1.2rem;
     padding: 0 20px;
@@ -82,6 +85,7 @@ h1 {
 }
 .bouton button {
     border: 1px dotted #0065FC;
+   
     line-height: 2;
     padding: 0px 20px;
     font-size: 1.2rem;
@@ -109,15 +113,18 @@ input[type=search] {
 
 .filtrer .fas {
     text-align: center;
-    width: 50px;
-    height: 50px;
+    width: 52px;
+    height: 52px;
     font-size: 1.3rem;
     background-color:#DEEBFF;
     border-radius: 50%;
     padding: 14px 0 0;
+    position: relative;
+    right: 5px;
 }
 .filtre {
     border: 2px solid #e5e5e5;
+   
     border-left-style: none;
     border-radius: 25px;
     align-self: flex-end;
@@ -125,21 +132,20 @@ input[type=search] {
 .filtre:hover {
     background-color: #DEEBFF;
     border: #DEEBFF;
+    cursor: pointer;
 }
 .btn {
-    border: none;
-    padding: 14px;
+    
+    
+    padding: 12px;
     font-size: 1.2rem;
     font-weight: bold;
-    background-color: transparent;
     text-align: center;
-    border-top-right-radius: 25px;
-    border-bottom-right-radius: 25px;
+    text-decoration: none;
+    color: black;
+   
 }
-/* .btn:hover {
-    background-color: #DEEBFF;
-  
-} */
+
 /* Hébergements */
 
 .ligneInfo {

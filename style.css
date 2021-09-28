@@ -101,8 +101,8 @@ input[type=search] {
 }
 
 /* Filtres */
-.filtrer {
-    max-width: 70%;
+.Filtrer {
+    max-width: 75%;
     margin: 20px 0;
     padding: 20px 0;
     display: flex;
@@ -111,7 +111,7 @@ input[type=search] {
     flex-wrap: wrap;
 }
 
-.filtrer .fas {
+.filtre .fas {
     text-align: center;
     width: 52px;
     height: 52px;
@@ -119,31 +119,32 @@ input[type=search] {
     background-color:#DEEBFF;
     border-radius: 50%;
     padding: 14px 0 0;
+    margin-left: -25px;
     position: relative;
-    right: 5px;
+    left: 28px;
+    bottom: 2px; 
 }
-.filtre {
-    border: 2px solid #e5e5e5;
-   
-    border-left-style: none;
-    border-radius: 25px;
-    align-self: flex-end;
-}
-.filtre:hover {
+/* .filtre:hover {
     background-color: #DEEBFF;
-    border: #DEEBFF;
+    border-radius: 25px;
+} */
+.filtre {
     cursor: pointer;
 }
+
 .btn {
-    
-    
-    padding: 12px;
+    border: 2px solid #e5e5e5;
+    border-left-style: none;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    padding: 13px 20px 13px 35px;
     font-size: 1.2rem;
     font-weight: bold;
-    text-align: center;
-    text-decoration: none;
     color: black;
-   
+}
+.btn:hover {
+    background-color: #DEEBFF;
+    /* border: 2px solid #0065FC; */
 }
 
 /* Hébergements */

@@ -334,8 +334,8 @@ aside {
 }
 
 .cardAct {
-    min-width: 303px;
-    width: 20%;
+    max-width: 303px;
+    width: 24%;
     /* margin: 1%; */
     box-shadow: 0 5px 10px lightgray;
     border-radius: 19px;
@@ -344,7 +344,9 @@ aside {
 
 #Activités img {
     object-fit: cover;
-    min-width: 100%;
+    width: 100%;
+    max-width: 303px;
+    /* height: auto; */
 }
 h4 {
     font-size: 1em;

@@ -32,10 +32,11 @@ header img{
 }
 
 nav{
-    width: 450px;
+    width: 30%;
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;  
+    justify-content: space-around;
+    margin-left: auto;
+    /* align-items: ;   */
 }
 nav a {
     text-decoration: none;
@@ -48,8 +49,14 @@ nav a:hover {
     border-top: 3px solid #0065FC;
     color: #0065FC;
 }
-.blue {
+.register {
     color: #0065FC;
+    text-decoration: none;
+    padding: 45px 15px 0;
+    margin-left: 3%;
+    text-align: center;
+    border-top: 3px solid transparent;
+   
 }
 
 /* Bouton Rechercher */
@@ -79,7 +86,7 @@ h1 {
     border-bottom-left-radius: 16px;
     padding: 14px 0 0;
 }
-.bouton button {
+.searchTxt {
     border: 1px dotted #0065FC;
    
     line-height: 2;
@@ -90,6 +97,9 @@ h1 {
     color: white;
     border-top-right-radius: 16px;
     border-bottom-right-radius: 16px;
+}
+.searchIcon {
+    display: none;
 }
 input[type=search] {
     color: black;
@@ -397,23 +407,21 @@ ul {
 
 @media (max-width: 991px) {
 
-    /* Header */
     .Filtrer {
         min-width: 100%;
     }
 
-    /* #Hébergements */
     .boxHeb {
         padding: 20px;
     }
-            /* Hebergements à Marseille */
+            
     .boxHeb h2, .more{
         text-align: center;
     }
     .cardHeb {
         width: auto;
     }
-            /* Populaires */
+
     aside {
         min-width: 350px;
         padding: auto;
@@ -423,7 +431,7 @@ ul {
         /* width: 70% ; */
         /* width: 60%; */
     }
-            /* Activités */
+
     #Activités h2 {
         text-align: center;
     }
@@ -437,19 +445,52 @@ ul {
     }
     header {
         margin: 0 4%;
+        flex-wrap: wrap;
+    }
+    nav {
+        width: 100%;
+        order: 1;
+    }
+    nav a {
+        width: 50%;
+        padding: 45px 15px 20px;
+        border-bottom: 3px solid transparent;
+        border-top: none;
+    }
+    nav a:hover{
+        border-bottom: 3px solid #0065FC;
+        border-top: none;
+    }
+    h1 {
+        margin: 20px 0;
     }
     .Recherche {
         margin: 0 4%;
     }
-    .ligneInfo {
-        margin: 0 4%;
+    .searchTxt {
+        display: none;
     }
-    /* Header */
-    
+    .searchIcon {
+        display: inline;
+        color: white;
+        background-color: #0065FC;
+        min-width: 50px;
+        min-height: 50px;
+        padding: 14 0 0;
+        border: 3px solid #0065FC;
+        border-top-right-radius: 16px;
+        border-bottom-right-radius: 16px;
+    }
+    .loupe {
+        color: white;
+    }
     .Filtrer {
         min-width: 99%;
     }
     /* #Hebergements */
+    .ligneInfo {
+        margin: 0 4%;
+    }
     #Hébergements {
         flex-direction: column-reverse;
     }

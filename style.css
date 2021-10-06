@@ -484,10 +484,11 @@ ul {
     }
     .cardPop {
         width: 335px;
+        /* width: 50%; */
         height: 145px;
     }
     .cardPop img {
-        min-width: 128px;
+        width: 128px;
     }
    /* Hebergements */
     .boxHeb {
@@ -504,11 +505,13 @@ ul {
         align-items: center;
     }
     .cardHeb {
-        width: 335px;
-        height: 196px;     
+        min-width: 335px;
+        width: 50%;
+        min-height: 196px;     
     }
     .cardHeb img {
-        height: 115px;
+        min-height: 115px;
+        object-position:right;
     }
     
         /* #Activités */
@@ -521,6 +524,7 @@ ul {
     }
     .cardAct {
         min-width: 335px;
+        /* width: 50%; */
         min-height: 191px; 
         margin: 2%;
     }

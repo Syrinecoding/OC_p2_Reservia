@@ -206,13 +206,14 @@ h1 {
 }
 .cardHeb {
     min-width: 246px;
-    width: 20%;
+    /* width: 20%; */
     height: auto;
     border-radius: 19px;
     box-shadow: 0 5px 10px lightgray;
     margin: 15px;
     padding: 3px 3px 10px;
     background-color: white;
+    flex: 1 1 20%;
 } 
 .cardHeb img {
     border-top-left-radius: 19px ;
@@ -345,6 +346,7 @@ aside {
     box-shadow: 0 5px 10px lightgray;
     border-radius: 19px;
     overflow: hidden;
+   
 }
 
 #Activités img {

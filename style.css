@@ -367,7 +367,15 @@ h4 {
     border-bottom-left-radius: 19px;
     border-bottom-right-radius: 19px; 
 }
-
+.flexbox1 a:hover {
+    box-shadow: 0 5px 10px #0065FC;
+}
+.flexbox2 a:hover {
+    box-shadow: 0 5px 10px #0065FC;
+}
+.flexbox3 a:hover {
+    box-shadow: 0 5px 10px #0065FC;
+}
 
 /* Footer */
 footer {

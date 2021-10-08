@@ -182,7 +182,6 @@ h1 {
 
 }
 #Hébergements a {
-    display: block;
     text-decoration: none;
     color: black;
 }
@@ -255,9 +254,6 @@ aside {
     background-color: hsl(0, 0%, 95%);
     padding: 20px;
 }
-/* aside a {
-    display: inline-block;
-} */
 .titrePop {
     display: flex;
     justify-content: space-between;
@@ -274,15 +270,12 @@ aside {
     align-items: center;
     margin: 0 20px;
 }
-
 .cardPop {
-    /* display: block; */
     background-color: white;
     border-radius: 19px;
     box-shadow: 0 5px 10px lightgray;
     padding: 3px;
     margin: 20px;
-  
     min-width: 343px;
     width: 90%;
     height: 134px;
@@ -529,7 +522,7 @@ ul {
     .cardHeb {
         min-width: 335px;
         /* width: 70%; */
-        min-height: 196px;     
+        min-height: 196px;  
     }
     .cardHeb img {
         min-height: 115px;

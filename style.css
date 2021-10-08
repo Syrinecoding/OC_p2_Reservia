@@ -62,7 +62,7 @@ nav a:hover {
 
 /* Bouton Rechercher */
 h1 {
-    font-size: 1.3rem;
+    font-size: 24px;
     margin: 25px 0 15px 0;
 }
 .bouton {
@@ -339,7 +339,6 @@ aside {
     box-shadow: 0 5px 10px lightgray;
     border-radius: 19px;
     overflow: hidden;
-   
 }
 
 #Activités img {
@@ -427,7 +426,6 @@ ul {
     .cardHeb {
         min-width: 300px;
         /* width: 80%; */
-
     }
 
     aside {
@@ -491,16 +489,19 @@ ul {
     #Hébergements {
         flex-direction: column-reverse;
     }
-    
+    h2 {
+        font-size: 22px;
+    }
         /* Populaires */
     aside {
         width: 100%;
         border-radius: unset;
     }
     .cardPop {
-        width: 335px;
-        /* width : 80%; */
+        min-width: 335px;
+        width : 70%;
         height: 145px;
+        justify-content: flex-start;
     }
     /* .cardPop img {
         width: 128px;
@@ -509,11 +510,9 @@ ul {
     .boxHeb {
         width: 100%;
         background-color: unset;
-        padding: 0;
+        /* padding: 0; */
     }  
-    .boxHeb h2 {
-        margin-top: 50px;
-    }  
+    
     .flexbox1 {
         flex-direction: column;
         justify-content: center;
@@ -521,8 +520,10 @@ ul {
     }
     .cardHeb {
         min-width: 335px;
-        /* width: 70%; */
-        min-height: 196px;  
+        width: 70%;
+        height: 196px;  
+        flex: none;
+        margin: 15px 0; 
     }
     .cardHeb img {
         min-height: 115px;
@@ -530,23 +531,26 @@ ul {
     }
     
         /* #Activités */
+    #Activités {
+        padding: 20px;
+    }    
     .flexbox3 {
         flex-direction: column;
         justify-content: center;
         align-items: center;
         flex-wrap: nowrap;
         height: auto;
+
     }
     .cardAct {
         min-width: 335px;
-        /* width: 80%; */
-        min-height: 191px; 
+        width: 70%;
+        height: 191px; 
         margin: 2%;
+        max-width: none;
     }
-    #Activités h2 {
-        margin-top: 50px;
-    }
-     #img118, #img145 {
+
+    #img145 {
         height: 134px;
         object-position:top;
     }  
@@ -555,14 +559,14 @@ ul {
     }
         /* Footer */
     .footer {
-        margin: 0 25px;
+        min-width: 335px;
+        padding: 30px 20px;
         flex-direction: column;
-        align-items: center;
         gap: 20px;
     }
     
     .footerBox {
-        width: 100%;
+        width: auto;
     }
     .footer li {
         font-size: 15px;

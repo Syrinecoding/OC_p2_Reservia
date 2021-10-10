@@ -57,9 +57,11 @@ nav a:hover {
     margin-left: 3%;
     text-align: center;
     border-top: 3px solid transparent;
-   
+    transition: 0.3s;
 }
-
+.register:hover {
+    transform: scale(1.1);
+}
 /* Bouton Rechercher */
 h1 {
     font-size: 24px;
@@ -477,7 +479,7 @@ ul {
         margin-left: 20px;
     }
     #cities {
-        width: 80%;
+        width: 70%;
     }
     .searchTxt {
         display: none;

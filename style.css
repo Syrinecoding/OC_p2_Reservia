@@ -450,9 +450,13 @@ ul {
         margin: 0;
     }
     header {
-        margin: 0 20px;
+        /* margin: 0 20px; */
+        /* padding-left: 20px; */
         flex-wrap: wrap;
         width: 95%;
+    }
+    .logo {
+        padding-left: 20px;
     }
     nav {
         width: 100%;
@@ -471,6 +475,9 @@ ul {
     
     .Recherche {
         margin-left: 20px;
+    }
+    #cities {
+        width: 80%;
     }
     .searchTxt {
         display: none;

@@ -455,7 +455,7 @@ ul {
         /* margin: 0 20px; */
         /* padding-left: 20px; */
         flex-wrap: wrap;
-        width: 95%;
+        /* width: 95%; */
     }
     .logo {
         padding-left: 20px;
@@ -489,7 +489,6 @@ ul {
         background-color: #0065FC;
         min-width: 50px;
         min-height: 50px;
-        padding: 14 0 0;
         border: 3px solid #0065FC;
         border-radius: 16px;
         position: relative;
